@@ -1,0 +1,71 @@
+/* Styles for background image on intital home */
+#home{
+  background-image: url('../css/images/background3.jpg') !important; /* Replace 'image.jpg' with the path to your image */
+  background-size: cover; /* Ensures the image covers the entire table */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image within the table */
+}
+
+/* Styles for background image on project section */
+#projects{
+  background-image: url('../css/images/background2.jpg') !important; /* Replace 'image.jpg' with the path to your image */
+  background-size: cover; /* Ensures the image covers the entire table */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image within the table */
+}
+
+#footer{
+  background-image: url('../css/images/background2.jpg') !important; /* Replace 'image.jpg' with the path to your image */
+  background-size: cover; /* Ensures the image covers the entire table */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image within the table */
+}
+
+/* Styles for the project tiles */
+.project-tile {
+  position: relative;
+  overflow: hidden;
+  height: 200px; /* Adjust as needed */
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.project-tile:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.project-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  pointer-events: none; /* Ensure the text does not interfere with clicking the tile */
+}
+
+
+.project-title {
+  /* Add white color to the text */
+  color: white;
+  /* Add black outline to the text */
+  text-shadow: -2px -2px 0 black,  
+                2px -2px 0 black,
+               -2px  2px 0 black,
+                2px  2px 0 black;
+}
