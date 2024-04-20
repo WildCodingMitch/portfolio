@@ -6,10 +6,10 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <title>Mitchell Fairgrieve Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
  
-<body>
+<body border=".25">
     <!--Header(start)-->
     <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
         <tr>
@@ -27,6 +27,21 @@
                           <font face="Verdana"
                           size="4" color=white>
                         </font>
+                        </td>
+                        <td align="right">
+                            <a href="#home"
+                               style="text-decoration:none">
+                                <font face="Verdana"
+                                      size="4" color=white>
+                                    Home
+                                </font>
+                            </a>
+                        </td>
+                        <td align="right">
+                          <font face="Verdana"
+                                size="5" color=white>
+                                |
+                          </font>
                         </td>
                         <td align="right">
                             <a href="#about"
@@ -89,7 +104,7 @@
     <!--Spacer(end)-->
  
     <!--Resume(start)-->
-    <table id="home" border="0" width="100%" height=600px cellpadding="20" cellspacing="0" bgcolor="white">
+    <table id="home" border=".25" width="100%" height=800px cellpadding="20" cellspacing="0" bgcolor="white">
       <tr>
             <td>
                 <table id="resume" border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
@@ -153,7 +168,7 @@
 
                   <tr>
                       <td width="35%">
-                          <img src="../static/css/images/headshot4.jpg">
+                          <img src="static/css/images/headshot4.jpg">
                       </td>
 
                       <td width="60%">
@@ -202,7 +217,7 @@
 
 
   <!--Projects(start)-->
-  <table id="projects" border="0" width="100%" height=1000px cellpadding="0" cellspacing="0" bgcolor="#F54040">
+  <table id="projects" border=".25" width="100%" height=1000px cellpadding="0" cellspacing="0" bgcolor="#F54040">
     <tr>
         <td>
             <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
@@ -218,26 +233,26 @@
                 <tr>
                     <td width="25%">
                         <div class="project-tile" onclick="window.open('https://github.com/mlopez60/Project3_European-Airbnb-Data-Visualization', '_blank');">
-                          <img src="../static/css/images/logo3.PNG" alt="data visualization">
+                          <img src="static/css/images/logo3.PNG" alt="data visualization">
                           <div class="project-name">Large Data Project</div>
                         </div>
                     </td>
                     <td width="25%">
                         <div class="project-tile" onclick="window.open('https://github.com/WildCodingMitch/matplotlib-challenge', '_blank');">
-                          <img src="../static/css/images/logo.PNG" alt="matplotlib">
+                          <img src="static/css/images/logo.PNG" alt="matplotlib">
                           <div class="project-name">Matplotlib</div>
                         </div>
                     </td>
                     <td width="25%">
                       <div class="project-tile" onclick="window.open('https://github.com/WildCodingMitch/datacollection-challenge', '_blank');">
-                        <img src="../static/css/images/logo2.PNG" alt="data_collection">
+                        <img src="static/css/images/logo2.PNG" alt="data collection">
                         <div class="project-name">Web Scraping</div>
                       </div>
                   </td>
                   <td width="25%">
-                      <div class="project-tile" onclick="window.open('https://github.com/WildCodingMitch/matplotlib-challenge', '_blank');">
-                        <img src="../Resources/images/logo.PNG" alt="matplotlib">
-                        <div class="project-name">Matplotlib Project</div>
+                      <div class="project-tile" onclick="window.open('https://wildcodingmitch.github.io/belly-button-challenge/', '_blank');">
+                        <img src="static/css/images/logo4.PNG" alt="interactive dashboard">
+                        <div class="project-name">Interactive Dashboard</div>
                       </div>
                   </td>                   
                 </tr>
@@ -315,9 +330,14 @@
                             valign="middle" colspan="2">
                             <font face="Verdana" size="7"
                                 color="white">
-                                Contact
+                                Contact Me
                             </font>
                             <hr color="white" width="90">
+                            <font face="Verdana" size="3"
+                                color="white">
+                                <br>Please fill out the form below to get in contact with me!<br>
+                                I am always looking to expand my network, so don't hesitate to reach out!
+                            </font>
                         </td>
                     </tr>
                     <tr>
@@ -357,20 +377,6 @@
                                     <td width="30%">
                                         <font face="Verdana" size="4"
                                             color="black">
-                                            Number
-                                        </font>
-                                    </td>
-                                    <td width="70%">
-                                        <font face="Verdana" size="4"
-                                            color="black">
-                                            <input type="number" size="12">
-                                        </font>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="30%">
-                                        <font face="Verdana" size="4"
-                                            color="black">
                                             Message
                                         </font>
                                     </td>
@@ -384,11 +390,10 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td width="30%">
-                                          
+                                    <td width="30%">    
                                     </td>
                                     <td width="70%">
-                                        <button type="Submit">
+                                        <button type="Submit" action="mailto:youremail@youremail.com?subject=PortfolioMessage">
                                             <font face="Verdana"
                                                 size="4" color="black">
                                                 <b>Submit</b>
@@ -416,7 +421,7 @@
 
  
     <!--Footer(start)-->
-    <table id="footer" border="0" width="100%"
+    <table id="footer" border=".25" width="100%"
         cellpadding="0" cellspacing="0" bgcolor="#F54040">
         <tr>
             <td>
